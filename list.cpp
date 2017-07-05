@@ -6,11 +6,6 @@
 
 using namespace std;
 
-// получение длины массива
-//int my_list::length()
-//{
-//    return this->sz;
-//}
 
 //получение количества не пустых элементов
 int my_list::count_elem()
@@ -63,22 +58,6 @@ void my_list::for_each(void (*f)(double &))
     }
 }
 
-
-// оператор доступа к элементам
-//double my_list::operator[](int i)
-//{
-//    if (i<1 || i>this->sz)
-//        throw "öut of range";
-//    node *t = this->begin;
-//    while (t != nullptr)
-//    {
-//        if (i == t->position)
-//            return t->data;
-//        t = t->next;
-//    }
-
-//    return this->def;
-//}
 
 
 
